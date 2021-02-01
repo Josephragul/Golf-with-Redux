@@ -1,0 +1,53 @@
+.features-box {
+    width: 90%;
+    height: 35vh;
+    padding: 10px 10px;
+    top: 25%;
+    position: absolute;
+    background-color: rgb(252, 246, 246);
+      margin-left: 5%;
+      box-shadow: 2px 2px 4px #c7bfbf;
+      margin-right: 5%;
+      
+      
+      border-radius: 10px;
+      margin-left: 5%;
+}
+
+.features-box h2{
+    padding: 10px 30px;
+    color: #079c04;
+    padding-bottom: 20px;
+}
+
+.features-box p{
+     padding: 30px;
+     padding-bottom: 20px;
+     text-align: justify;
+     font-size: 16px;
+     line-height: 1.7rem;
+}
+/* .clearfix {
+    overflow: auto;
+} */
+
+
+
+ @media only screen and (max-width:700px){
+     .features-box {
+         width: 90%;
+         
+         min-height: 60vh;
+     }
+     .features-box p {
+         padding: 10px 0;
+         padding-bottom: 20px;
+         text-align: justify;
+         font-size: 14px;
+         line-height: 1.7rem;
+     }
+ }
+
+
+
+
